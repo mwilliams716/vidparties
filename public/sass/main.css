@@ -1,0 +1,33 @@
+body {
+  background: #EEEEEE;
+}
+
+a {
+  color: #630000;
+}
+
+a:hover, a:active {
+  color: #630000;
+  text-decoration: underline;
+}
+
+.navbar {
+  background: #000000;
+}
+
+a.navbar-brand {
+  color: #630000;
+}
+
+.form-control, .card {
+  border-radius: 0px;
+  border: 1px #EEEEEE solid;
+}
+
+.form-control:hover, .form-control:active, .form-control:focus {
+  border: 1px #EEEEEE solid;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=main.css.map */

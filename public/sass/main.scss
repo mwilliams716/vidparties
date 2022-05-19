@@ -1,0 +1,33 @@
+$color-1: #000000;
+$color-2: #EEEEEE;
+$color-3: #630000;
+
+body {
+    background: $color-2;
+}
+
+a {
+    color: $color-3;
+}
+a:hover, a:active {
+    color: $color-3;
+    text-decoration: underline;
+}
+
+.navbar {
+    background: $color-1;
+}
+a.navbar-brand {
+    color: $color-3;
+}
+
+.form-control, .card {
+    border-radius: 0px;
+    border: 1px $color-2 solid;
+}
+
+.form-control:hover, .form-control:active, .form-control:focus {
+    border: 1px $color-2 solid;
+    outline: none;
+    box-shadow: none;
+}
